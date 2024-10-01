@@ -1,0 +1,12 @@
+.sideBar__handler {
+    height: 100vh;
+    background-color: var(--main-body-bg);
+}
+.sideBar__contentHandler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+

@@ -1,0 +1,14 @@
+.myNavBar {
+    display: none !important;
+    z-index: 10;
+    margin-inline-start: 15px;
+    position: fixed !important;
+    left: 0;
+    top: 0;
+}
+
+@media (max-width: 991px) {
+    .myNavBar{
+        display: block !important;
+    }
+}

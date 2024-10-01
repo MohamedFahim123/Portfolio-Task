@@ -1,0 +1,19 @@
+.list__link {
+    cursor: pointer;
+    padding: 10px 0;
+    background-color: #fff;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    text-transform: capitalize;
+    font-size: 0.93rem;
+}
+.list__link:hover {
+    color: var(--main-hover-color);
+}
+.active {
+    color: var(--main-hover-color);
+}

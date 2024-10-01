@@ -1,0 +1,20 @@
+.notFound__handler {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+}
+.notFound__handler h1 {
+    font-size: 120px;
+    color: #000;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    font-weight: bold;
+}
+.notFound__handler p {
+    font-size: 40px;
+    font-family: var(--head-font-family);
+    font-weight: bold;
+    color: #000;
+}

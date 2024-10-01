@@ -1,0 +1,26 @@
+.column {
+    padding: 0 12px;
+}
+.card {
+    max-height: 140px;
+    box-shadow: 0 0 56px -8px #0000002b;
+    margin-block: 20px;
+}
+.card i {
+    font-size: 30px;
+}
+.card h6 {
+    color: #000;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+@media (max-width: 1024px) {
+    .card {
+        padding: 10px !important;
+    }
+    .card h6 {
+        font-size: 0.8rem;
+    }
+}

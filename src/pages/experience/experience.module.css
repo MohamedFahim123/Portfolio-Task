@@ -1,0 +1,111 @@
+.timeLine__handler {
+    position: relative;
+    height: 100%;
+    padding: 0;
+}
+.timeLine__handler::before {
+    content: '';
+    position: absolute;
+    height: 103%;
+    width: 3px;
+    left: 0;
+    top: 0;
+    background-color: #eee;
+    z-index: 1;
+}
+.timeLine__element {
+    padding: 30px 0 0 40px;
+    position: relative;
+}
+.timeLine__element:last-child {
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+}
+.timeLine__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -25px;
+    top: 45px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 0 5px #f2f3f7;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 2;
+}
+.timeLine__icon {
+    font-size: 22px;
+    color: #fff;
+}
+.timeLine__innerContent {
+    position: relative;
+    padding: 30px;
+    background-color: #f2f3f7;
+}
+.timeLine__innerContent::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 25px;
+    left: -30px;
+    border: 15px solid;
+    border-color: transparent #f2f3f7 transparent transparent;
+}
+.timeLine__innerContent h3 {
+    font-family: var(--main-font-family);
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.timeLine__innerContent h3 span {
+    opacity: 0.4;
+    font-size: 1rem;
+    margin-inline-start: 5px;
+}
+.timeLine__innerContent p {
+    font-size: 0.95rem;
+    color: #000000b3;
+}
+@media (max-width: 560px) {
+    .timeLine__innerContent h3 {
+        font-size: 1rem;
+    }
+    .timeLine__innerContent h3 span {
+        font-size: 0.8rem;
+    }
+    .timeLine__innerContent p {
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 450px) {
+    .timeLine__innerContent h3 {
+        font-size: 0.9rem;
+    }
+    .timeLine__innerContent h3 span {
+        font-size: 0.7rem;
+    }
+    .timeLine__innerContent p {
+        font-size: 0.6rem;
+    }
+    .timeLine__innerContent::before {
+        display: none;
+    }
+    .timeLine__circle {
+        display: none;
+    }
+    .timeLine__handler::before {
+        display: none;
+    }
+    .timeLine__element {
+        padding-inline: 0 ;
+    }
+    .timeLine__element:last-child {
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+    }
+}

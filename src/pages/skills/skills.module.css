@@ -1,0 +1,36 @@
+.progress_container {
+    position: relative;
+    width: 100%;
+}
+.skillHead {
+    font-size: 1rem;
+}
+.myProgress {
+    height: 7px !important;
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
+.progress_bar {
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.progress_counter {
+    position: absolute;
+    top: -25px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.progress_ball {
+    position: absolute;
+    top: -1.5px;
+    white-space: nowrap;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

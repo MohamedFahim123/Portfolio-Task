@@ -1,0 +1,41 @@
+:root {
+  --main-hover-color: #2c98f0;
+  --main-body-bg: #f5f5f5;
+  --main-font-family: "Quicksand", sans-serif;
+  --head-font-family: "Playfair Display",Georgia, serif;
+  --main-paragraph-color: #000000b3;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: var(--main-font-family);
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+img {
+  width: 100% ;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:var(--head-font-family);
+}
